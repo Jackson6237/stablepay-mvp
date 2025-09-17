@@ -1,0 +1,17 @@
+:root{--bg:#f7f9fb;--accent:#0b6ef6;--card:#fff}
+*{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#222}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.topbar{background:var(--card);border-bottom:1px solid #e6eefb}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+.topbar h1{margin:0;font-size:20px;color:var(--accent)}
+nav a{margin-left:12px;color:#555;text-decoration:none}
+#hero{background:linear-gradient(90deg,#fff,#fbfdff);padding:36px;border-radius:8px;margin-top:18px}
+.primary{background:var(--accent);color:#fff;padding:10px 18px;border:none;border-radius:6px;cursor:pointer}
+section{margin-top:18px}
+code{display:block;background:#f1f6ff;padding:8px;border-radius:4px}
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.45);visibility:hidden;opacity:0;transition:all .18s}
+.modal[aria-hidden="false"]{visibility:visible;opacity:1}
+.modal-content{background:var(--card);padding:20px;border-radius:8px;max-width:420px;width:90%;position:relative}
+#closeModal{position:absolute;right:10px;top:10px;border:0;background:transparent;cursor:pointer}
+.qrWrap{display:flex;align-items:center;justify-content:center;margin:12px 0}
+.qrWrap img{width:180px;height:180px;border-radius:6px;border:1px solid #ddd}
